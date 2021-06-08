@@ -219,7 +219,7 @@ a {
   <!-- 로고 공간 -->
   <div>
     <!-- 로고 -->
-    <a href="index.php" class="top-bar__logo block">
+    <a href="../article/index.php" class="top-bar__logo block">
       <span>
         <i class="far fa-lemon"></i>
       </span>
@@ -257,7 +257,7 @@ a {
           </a>
           <ul>
             <li>
-              <a href="stock.php">
+              <a href="../article/stock.php">
                 <span><i class="fas fa-code"></i></span>
                 <span>주식 크레온데이터크롤링</span>
               </a>

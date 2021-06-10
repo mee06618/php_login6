@@ -1,7 +1,7 @@
 <?php
-//$isLogined = $GLOBALS['App__isLogined'];
-//$loginedMemberId = $GLOBALS['App__loginedMemberId'];
-//$loginedMember = $GLOBALS['App__loginedMember'];
+$isLogined = $GLOBALS['App__isLogined'];
+$loginedMemberId = $GLOBALS['App__loginedMemberId'];
+$loginedMember = $GLOBALS['App__loginedMember'];
 $isLogined=NULL;
 ?>
 <!DOCTYPE html>
@@ -121,12 +121,12 @@ a {
 
 .top-bar__logo {
   font-weight:bold;
-  font-size:1.3rem;
+  font-size:1.7rem;
   padding:20px;
 }
 
 .top-bar__menu-box-1 > ul > li {
-  font-size:1.05rem;
+  font-size:1.6rem;
   position:relative;
   z-index: 1;
 }
@@ -171,8 +171,8 @@ a {
   font-size:0.8rem;
   
 }
-.util-group{
-  
+.util-group > div > a{
+  font-size:1.5rem;
 }
 .util-group>div:nth-child(1){
   width:300px;
